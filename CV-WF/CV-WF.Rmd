@@ -1,0 +1,120 @@
+---
+name: Dr. med. Wojciech
+surname: Francuzik
+position: "Digital Clinician Scientist"
+address: "Dept. of Dermatology, Charité – Universitätsmedizin Berlin"
+phone: "+49 30 450 618 344"
+www: "fracoscientific.com"
+email: "wojciech.francuzik@charite.de"
+twitter: wolass
+github: wolass
+orcid: 0000-0001-5361-9876
+profilepic: face2.jpg
+linkedin: "wojciech-francuzik"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::moderncv:
+    includes:
+      in_header: header.txt
+
+---
+
+\small
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+
+```
+
+
+
+# Personal data
+
+```{r}
+library(tibble)
+tribble(
+  ~ What, ~ Value, ~ Where,
+  "Date of birth", "12. March 1988", "Poznań, Poland",
+  "Current position", "Postdoctoral Digital Clinician Scientist and Dermatologist in training", "Charité – Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Department of Dermatology, Venereology and Allergology, Div. Allergy and Immunology, Charitéplatz 1, 10117 Berlin, Germany",
+  "Nationality", "Polish", ""
+) %>%
+  detailed_entries(Value, What, Where)
+```
+
+\section{Education and Experience}
+\cventry{since 01.2023}{Digital Clinician Scientist}{Berlin Institute of Health (BIH) Program}{bihealth.org}{}{}
+\cventry{06.2022}{Doctor of Medical Sciences (dr n. med.) degree (with distinction)}{\href{http://kolegianauk.ump.edu.pl/Nadane-stopnie-naukowe-doktora}{Risk factors for postoperative complications in gastrointestinal surgery and the effectiveness of mobile technology in their monitoring}}{Karol Marcinkowski Medical University in Poznań}{}{}
+\cventry{01.03.2019}{Doctor of Medicine degree (Dr. med.)}{\href{https://refubium.fu-berlin.de/bitstream/handle/fub188/23991/Diss_Francuzik_.pdf}{Risk factors for a severe reaction in anaphylaxis}}{Magna cum laude}{Clinic for Dermatology, Venereology and Allergology, Charité Universitätsmedizin Berlin}{}
+\cventry{01.2019}{Co-founder of the Company}{Warmie Sp. z o.o.}{}{}{}
+\cventry{since 01.2018}{Resident Doctor (Assistenzarzt)}{Clinic for Dermatology, Venereology and Allergology, Charité Universitätsmedizin Berlin}{}{}{}
+\cventry{since 01.2017}{Chief Scientific Officer}{Medigent Foundation}{Poznań}{}{}
+\cventry{01.2017 -- 12.2017}{Research Associate}{Clinic for Dermatology, Venereology and Allergology, Charité Universitätsmedizin Berlin}{}{}{}
+\cventry{01.2015 -- 03.2019}{PhD Candidate}{Research Group of Prof. Margitta Worm, Clinic for Dermatology, Venereology and Allergology, Charité Universitätsmedizin Berlin}{}{}{}
+\cventry{10.2013 -- 11.2014}{Medical Internship}{2nd Clinical Hospital in Poznań}{Poznań}{}{}
+\cventry{2007--2013}{Studies at the Faculty of Medicine I}{Medical University of Poznań}{Poznań}{}{}
+\newpage{}
+\section{Awards}
+\cvitem{02.2022}{\textbf{DGAKI | 1. Mainzer Abstract-Preis 2022} Serological biomarkers of anaphylaxis}{}
+\cvitem{04.2019}{\textbf{Poster Prize - EAACI Allergy School} \textit{Insect venom elicited anaphylaxis, a prospective cohort study from the European Anaphylaxis Registry}}{}
+\cvitem{2010}{ \emph{PUMS Research Grant of the Student Scientific Society} }
+\cvitem{2011 -- 2013}{ \emph{Three awards for the best presentation in the session during the "International Congress of Young Medical Scientists'' in the dermatology session} }
+
+\section{Additional Courses}
+\cventry{2019 -- 2021}{Data Scientist}{\href{https://www.datacamp.com/portfolio/wolass}{Datacamp.com}}{}{}{}
+\cventry{08.2018}{Good Clinical Practice (GCP-ICH)}{Charité Universitätsmedizin Berlin}{}{}{}
+\cventry{04.2016}{Good Scientific Practice (GSP)}{Charité Universitätsmedizin Berlin}{}{}{}
+\cventry{2013}{Data analysis}{Johns Hopkins Bloomberg School of Public Health}{Coursera}{}{8 weeks}
+\cventry{2013}{Computing for Data Analysis}{Johns Hopkins Bloomberg School of Public Health}{Coursera}{ \textit{with distinction}}{4 weeks}
+\cventry{12.2012}{Writing Great Papers in International Journals}{Wiley Science}{University of Warsaw}{}{}
+\cventry{2012}{Vaccine Trials: Methods and Best Practices}{Johns Hopkins School of Public Health}{Coursera}{}{7 weeks}
+
+
+\section{Extra-Curricular Activities}
+\cvitem{since 2022}{\textit{Vice Chairman} \textbf{Anaphylaxie Arbeitsgruppe | DGAKI}}
+\cvitem{since 2019}{\textit{Member} \textbf{German Society for Allergy and Clinical Immunology}}
+\cvitem{since 2018}{\textit{Member} \textbf{European Academy of Allergy and Clinical Immunology}}
+\cvitem{since 2016}{\textit{Ambassador} \textbf{Center for Open Science}, COS.io}
+\cvitem{since 2015}{\textit{Member} \textbf{Foundation for Open Access Statistics (FOAS)}}
+\cvitem{2012--2013}{\textit{Member} \textbf{European Society for Laser Dermatology}}}
+\cvitem{2009--2013}{\textit{Member} \textbf{Organizing Committee of the "International Congress of Young Medical Scientists'' organized by the Student Scientific Society}}
+\cvitem{2009--2013}{\textit{Member} \textbf{Student Scientific Society of the Medical University of Poznań}}
+
+\section{Language Proficiency}
+\cvitemwithcomment{Polish}{native language}{}
+\cvitemwithcomment{English}{fluent}{}
+\cvitemwithcomment{German}{B2 Certificate, Goethe-Institut}{05.2014}
+
+\section{Bibliometrics}
+
+\cvitemwithcomment{citations}{981}{\href{https://scholar.google.pl/citations?user=-g2ypzoAAAAJ&hl=en}{Google Scholar}}
+\cvitemwithcomment{h-index}{16}{\href{https://scholar.google.pl/citations?user=-g2ypzoAAAAJ&hl=en}{Google Scholar}}
+\cvitemwithcomment{i10-index}{22}{\href{https://scholar.google.pl/citations?user=-g2ypzoAAAAJ&hl=en}{Google Scholar}}
+\cvitemwithcomment{RG-score}{430}{\href{https://www.researchgate.net/profile/Wojciech-Francuzik/stats}{ResearchGate.net}}
+
+
+```{r fig.width=6, fig.height=3, echo=FALSE}
+data <- data.frame(
+  year = c(2017:2024),
+  citations = c(25, 54, 84, 93, 189, 206, 242, 63),
+  publications =  c(5,5,6,9,11,6,8,2)
+)
+
+ggpubr::ggarrange(
+  data %>% 
+  ggpubr::ggbarplot(
+    x = "year",
+    y = "citations",
+    fill = "navy"
+    ),
+  data %>% 
+  ggpubr::ggbarplot(
+    x = "year",
+    y = "publications",
+    fill = "navy"
+    )
+)
+
+```
+
+**Figure 1.** Citations per year according to Google Scholar.
